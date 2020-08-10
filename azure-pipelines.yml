@@ -14,13 +14,15 @@ steps:
     python -m pip install --upgrade pip
     pip install coverage
   displayName: 'Install coverage'
-  - script: |
+  
+- script: |
     coverage run tests.py
   displayName: 'Run tests'
 
 - script: |
     bash <(curl -s https://codecov.io/bash)
   displayName: 'Upload to codecov.io'
+  
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
