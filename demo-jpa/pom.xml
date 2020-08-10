@@ -59,15 +59,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>springboot-jpa</groupId>
-			<artifactId>springboot-jpa</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
 </project>
