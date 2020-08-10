@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: demo-jpa
-Implementation-Version: 1.5.4.RELEASE
+Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: bhask
 Implementation-Vendor-Id: com.example
 Build-Jdk: 1.8.0_211
